@@ -1,0 +1,53 @@
+/* use a more specific selector. it used to be img.rounded-circle */
+#profile img {
+    border: 4px solid #d10780;
+    /* add width and height to make your photo a perfect circle.
+       * also added and object-fit.
+       */
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+  
+  #profile {
+    background-color: #d9dde2;
+    /* use rem aqui tambien instead of px. */
+    padding: 3rem 0rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+  
+  #hobbies img {
+    /* use rem instead since its relative to the font size.
+       * also a larger value will make the images render nicely.
+       */
+    height: 250px;
+    width: 15rem;
+    object-fit: cover;
+  }
+  
+  #hobbies h5 {
+    font-size: 1.2rem;
+    /* rem otra vez */
+    margin-top: 1rem;
+  }
+
+  #hobbies h2 {
+    background: linear-gradient(to right,#eeff41, #26c6da, #2196f3, #fa77dd, #f4bd30, #ebfb5c, #43a047, #7e57c2, #f457b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+  #ChickenAlfrado h5{background-color: #7e57c2;}
+  
+  footer a {
+    text-decoration: none;
+    /* rem */
+    margin: 0rem 1rem;
+  }
+
+  #header {
+    background-color: #f457b5;
+  }
